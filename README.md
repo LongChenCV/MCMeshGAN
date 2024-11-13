@@ -73,6 +73,7 @@ mcubes Patient001_20191204_74_Female.nii.gz Patient001_20191204_74_Female.vtk 0.
 python open3d_simplificcation.py
 ```
 #### 3.2 Rigid Alignment to Align the Mesh Positions and Orientations (Requires IRTK Installation)
+For each patient, align their other meshes to the target mesh (Target.vtk)
 ```
 srreg Source.vtk Target.vtk -symmetric -dofout test.dof.gz
 ptransformation Source.vtk Source_srreg.vtk -dofin test.dof.gz
