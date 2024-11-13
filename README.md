@@ -3,7 +3,7 @@
 This is the official implementation of MCMeshGAN for predicting aneurysm growth through mesh-to-mesh translation.
 
 <div align=center>
-<img src="GTBaseline.png" width="300" height="420"/>   <img src="PreidictedGif.gif" width="300" height="420"/></div>
+<img src="GTBaseline.png" width="300" height="420"/>   <img src="PreidictedGif.gif", title="Predited Meshes(1-60 Month)", width="300" height="420"/></div>
 
 
 ### Prerequisites
