@@ -2,6 +2,7 @@
 
 This is the official implementation of MCMeshGAN for predicting aneurysm growth through mesh-to-mesh translation.
 
+A demonstration of the predicted mesh sequence over the next 60 months, based on the input ground truth (GT) baseline mesh (shown in the left figure).
 <div align=center>
 <img src="GTBaseline.png" width="300" height="420"/>   <img src="PreidictedGif.gif" title="Predited Meshes(1-60 Month)" width="300" height="420"/></div>
 
