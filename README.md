@@ -40,7 +40,7 @@ pip install torch_cluster -f https://data.pyg.org/whl/torch-2.3.1+cu121.html
 ## Training
 To start a training session run
 ``` 
-python main.py --mode train --epochs 10000
+python main.py --mode train --epochs 1000
 ```
 The trained model will be saved in ```MCMeshGAN/trained_models/```
 ## Testing
