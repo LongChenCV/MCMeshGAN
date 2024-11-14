@@ -80,7 +80,7 @@ ptransformation Source.vtk Source_srreg.vtk -dofin test.dof.gz
 ```
 #### 3.3 Non-Rigid Alignment for Vertex Correspondence Matching (Requires IRTK Installation)
 ```
-snreg Target.vtk Source_srreg.vtk -symmetric -dofout test_snreg.dof.gz -epsilon [load_save_pts_pc.py](load_save_pts_pc.py)0.001 -ds 10
+snreg Target.vtk Source_srreg.vtk -symmetric -dofout test_snreg.dof.gz -epsilon 0.001 -ds 10
 ptransformation Target.vtk Source_snreg.vtk -dofin test_snreg.dof.gz
 ```
 Source_snreg.vtk is the final mesh after alignment.
