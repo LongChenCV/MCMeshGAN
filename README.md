@@ -46,7 +46,7 @@ The trained model will be saved in ```MCMeshGAN/trained_models/```
 ## Testing
 To start a testing session run
 ``` 
-python main.py --mode test --load MCMeshGAN/trained_models/2024_11_01/16_57/epoch8000/
+python main.py --mode test --load MCMeshGAN/trained_models/2024_11_01/16_57/epochxxx/
 ```
 
 ## Comparison Baselines
