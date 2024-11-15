@@ -1,4 +1,4 @@
-# Multimodal Conditional MeshGAN for Efficient Aneurysm Growth Prediction
+# Multimodal Conditional MeshGAN for Personalized Aneurysm Growth Prediction
 
 This is the official implementation of MCMeshGAN for predicting aneurysm growth through mesh-to-mesh translation.
 
